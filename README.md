@@ -7,3 +7,6 @@ Implement a standard echo state network (ESN) model as discussed in class. Do no
 ### K step ahead forecasting
 A _k_ step ahead forecasting task consists of predicting the value of a time series at time $t+k$ by using the value of the time series at time $t$, where $k\geq1$ is called forecasting horizon.
 In general, the predicted value is always unidimensional (i.e. a single number). However, it is possible to use multiple input values in order to improve the results. Notably, once _k_ is decided, the output to be predicted is the value of the time series at time $t+k$, and the input may be a vector containing values of the times series at time $t, t-1, \dots, t-n$, where $n\geq0$ is defined by the user and sets the dimensionality of the input vector.
+
+## Project Code and Report
+Project is written by Python in Jupyter Lab, code and experiments are available here -> [Report](https://github.com/Makiato1999/ESN-echo-state-network/blob/main/project.ipynb)
